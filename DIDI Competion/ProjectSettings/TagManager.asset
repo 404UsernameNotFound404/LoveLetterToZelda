@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Transitions
+  - TransationToBeach
+  - TransationToTims
+  - TransationToStarting
+  - TransationToBeach2
+  - TransationToPathToLair1
+  - TransationToPathToLair2
+  - TransationToStairs
+  - walls
+  - Enemy
+  - TransationToTalkToTims
+  - enemy
+  - Sword
+  - TransationForBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3571316301
+    locked: 0
+  - name: ForGround
+    uniqueID: 3977880313
+    locked: 0
