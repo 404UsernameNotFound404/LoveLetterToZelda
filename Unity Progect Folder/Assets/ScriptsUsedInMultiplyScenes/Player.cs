@@ -210,8 +210,9 @@ public class Player : MonoBehaviour
 			if (col.gameObject.CompareTag("TransationForBoss"))
 			{
 				gameObject.transform.position = new Vector3(spawnPointForPlayerBoss.transform.position.x, spawnPointForPlayerBoss.transform.position.y,spawnPointForPlayerBoss.transform.position.z);
-				cam.transform.position = camPositionForBoss.transform.position;
-				bossBatleCamera = true;
+				cam.transform.position = new Vector3(camPositionForBoss.transform.position.x,camPositionForBoss.transform.position.y,-10);
+                cam.orthographicSize = 14;
+				//bossBatleCamera = true;
 			}
 		}
 	}

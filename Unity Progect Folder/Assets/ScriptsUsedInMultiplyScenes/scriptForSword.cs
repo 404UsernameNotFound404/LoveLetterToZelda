@@ -18,6 +18,11 @@ public class scriptForSword : MonoBehaviour
 			Debug.Log("Hit Enenmy"); 
 			Destroy(gameObject);
 		}
+        if(col.gameObject.CompareTag("Solid Objects"))
+        {
+            Debug.Log("Hit somthign");
+            Destroy(gameObject);
+        }
 	}
 	private void Update()
 	{
